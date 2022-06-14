@@ -185,7 +185,7 @@
                                 </state>
                                 <connections>
                                     <action selector="nextVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yVB-2O-LOV"/>
-                                    <action selector="quizButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MNa-KC-11y"/>
+                                    <action selector="quizButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VoK-aU-AXK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JmV-ec-uP5">
