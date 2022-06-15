@@ -16,6 +16,9 @@
 		6AD8147528570C2E005735C0 /* andaaz1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8147428570C2E005735C0 /* andaaz1_0Tests.swift */; };
 		6AD8147F28570C2E005735C0 /* andaaz1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8147E28570C2E005735C0 /* andaaz1_0UITests.swift */; };
 		6AD8148128570C2E005735C0 /* andaaz1_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8148028570C2E005735C0 /* andaaz1_0UITestsLaunchTests.swift */; };
+		C3C6B028285A10F30010ADCC /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6B027285A10F30010ADCC /* secondViewController.swift */; };
+		C3C6B02A285A11320010ADCC /* latesttrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6B029285A11320010ADCC /* latesttrendsViewController.swift */; };
+		C3C6B02C285A11440010ADCC /* quizoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6B02B285A11440010ADCC /* quizoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		6AD8147A28570C2E005735C0 /* andaaz1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = andaaz1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD8147E28570C2E005735C0 /* andaaz1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = andaaz1_0UITests.swift; sourceTree = "<group>"; };
 		6AD8148028570C2E005735C0 /* andaaz1_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = andaaz1_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3C6B027285A10F30010ADCC /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		C3C6B029285A11320010ADCC /* latesttrendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latesttrendsViewController.swift; sourceTree = "<group>"; };
+		C3C6B02B285A11440010ADCC /* quizoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizoneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				6AD8146628570C2E005735C0 /* Assets.xcassets */,
 				6AD8146828570C2E005735C0 /* LaunchScreen.storyboard */,
 				6AD8146B28570C2E005735C0 /* Info.plist */,
+				C3C6B027285A10F30010ADCC /* secondViewController.swift */,
+				C3C6B029285A11320010ADCC /* latesttrendsViewController.swift */,
+				C3C6B02B285A11440010ADCC /* quizoneViewController.swift */,
 			);
 			path = andaaz1.0;
 			sourceTree = "<group>";
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C6B028285A10F30010ADCC /* secondViewController.swift in Sources */,
 				6AD8146228570C2B005735C0 /* ViewController.swift in Sources */,
+				C3C6B02C285A11440010ADCC /* quizoneViewController.swift in Sources */,
 				6AD8145E28570C2B005735C0 /* AppDelegate.swift in Sources */,
+				C3C6B02A285A11320010ADCC /* latesttrendsViewController.swift in Sources */,
 				6AD8146028570C2B005735C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,8 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var textOne: UILabel!
+    
+    @IBOutlet weak var textThree: UILabel!
+    @IBOutlet weak var textTwo: UILabel!
 
-    @IBOutlet weak var logo: UIImageView!
+    @IBOutlet weak var logoOne: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
