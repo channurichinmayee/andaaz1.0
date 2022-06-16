@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -201,7 +201,7 @@
                                     <imageReference key="image" image="feed iconnnn" symbolScale="large"/>
                                 </state>
                                 <connections>
-                                    <segue destination="OZu-xP-WmV" kind="presentation" modalPresentationStyle="fullScreen" id="WhR-pM-hck"/>
+                                    <segue destination="OZu-xP-WmV" kind="presentation" modalPresentationStyle="fullScreen" id="6ec-FP-coy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0a-uj-2ff">
@@ -308,7 +308,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="OZu-xP-WmV" kind="presentation" modalPresentationStyle="fullScreen" id="VBV-KS-Ht5"/>
+                                    <segue destination="OZu-xP-WmV" kind="presentation" modalPresentationStyle="fullScreen" id="zho-3Q-q46"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -540,7 +540,7 @@
                                     <segue destination="ww7-T8-Ng1" kind="presentation" modalPresentationStyle="fullScreen" id="GZq-NG-5yp"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="UXE-jT-0Ae">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="UXE-jT-0Ae">
                                 <rect key="frame" x="25" y="304" width="182" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -557,7 +557,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bandana" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-FS-iyO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bandana" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-FS-iyO">
                                 <rect key="frame" x="204" y="444" width="196" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -616,8 +616,8 @@
                                     <action selector="button3:" destination="OZu-xP-WmV" eventType="touchUpInside" id="Utz-Cd-7TT"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monochrome" translatesAutoresizingMaskIntoConstraints="NO" id="ZnI-Gv-3bL">
-                                <rect key="frame" x="16" y="596" width="200" height="172"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monochrome" translatesAutoresizingMaskIntoConstraints="NO" id="ZnI-Gv-3bL">
+                                <rect key="frame" x="29" y="596" width="200" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -626,7 +626,7 @@
                     </view>
                     <connections>
                         <outlet property="bandana" destination="ijj-FS-iyO" id="6RY-ap-saI"/>
-                        <outlet property="colourblocking" destination="ZnI-Gv-3bL" id="q7n-i0-XTc"/>
+                        <outlet property="monochrome" destination="ZnI-Gv-3bL" id="rwy-Ao-bJA"/>
                         <outlet property="puffed" destination="UXE-jT-0Ae" id="N1q-GQ-ecI"/>
                         <outlet property="text1" destination="DuE-ny-qp2" id="BzW-Nb-t4l"/>
                         <outlet property="text2" destination="AXm-8f-Nka" id="0Ms-z9-fRQ"/>
@@ -729,8 +729,66 @@ Cg
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WF0-WE-MRP">
+                                <rect key="frame" x="0.0" y="713" width="444" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="_________________________ b">
+                                        <attributes>
+                                            <color key="NSColor" red="0.52549022440000004" green="0.48627454040000001" blue="0.39607840779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="36"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" systemColor="labelColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HL1-nX-qET">
+                                <rect key="frame" x="29" y="805" width="58" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="tintColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <imageReference key="image" image="homepage icon 1.0" symbolScale="large"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEe-v9-CrY">
+                                <rect key="frame" x="126" y="805" width="58" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="tintColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <imageReference key="image" image="about pageeeee icon" symbolScale="large"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muo-dA-cat">
+                                <rect key="frame" x="233" y="805" width="58" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="tintColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <imageReference key="image" image="feed iconnnn" symbolScale="large"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAM-Lu-LXK">
+                                <rect key="frame" x="328" y="805" width="58" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="tintColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <imageReference key="image" image="quiz 1.0 iconnnn" symbolScale="large"/>
+                                </state>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2h-zv-4NJ">
-                                <rect key="frame" x="31" y="657" width="351" height="67"/>
+                                <rect key="frame" x="47" y="638" width="351" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="We have also created a fact based quiz to test your knowledge on fashion and sustainability!">
@@ -1304,7 +1362,7 @@ Cg
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="GZq-NG-5yp"/>
-        <segue reference="VBV-KS-Ht5"/>
+        <segue reference="6ec-FP-coy"/>
         <segue reference="v0i-b1-piE"/>
     </inferredMetricsTieBreakers>
     <resources>
