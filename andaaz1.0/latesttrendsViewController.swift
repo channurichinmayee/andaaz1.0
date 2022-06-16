@@ -8,14 +8,33 @@
 import UIKit
 
 class latesttrendsViewController: UIViewController {
-
+    @IBOutlet weak var puffed: UIImageView!
+    @IBOutlet weak var bandana: UIImageView!
+    @IBOutlet weak var monochrome: UIImageView!
+    @IBOutlet weak var text1: UILabel!
+    @IBOutlet weak var text3: UILabel!
+    @IBOutlet weak var text2: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        text1.isHidden = true
+        text2.isHidden = true
+        text3.isHidden = true
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func button1(_ sender: Any) {
 
+    text1.isHidden = false
+        
+    }
+    
+    @IBAction func button2(_ sender: Any) {
+        text2.isHidden = false
+    }
+    
+    @IBAction func button3(_ sender: Any) {
+        text3.isHidden = false
+    }
     /*
     // MARK: - Navigation
 
