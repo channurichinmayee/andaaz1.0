@@ -8,32 +8,69 @@
 import UIKit
 
 class latesttrendsViewController: UIViewController {
-    @IBOutlet weak var puffed: UIImageView!
-    @IBOutlet weak var bandana: UIImageView!
-    @IBOutlet weak var monochrome: UIImageView!
-    @IBOutlet weak var text1: UILabel!
-    @IBOutlet weak var text2: UILabel!
-    @IBOutlet weak var text3: UILabel!
+    
+    @IBOutlet weak var puffedSleevesText: UILabel!
+    @IBOutlet weak var bandanaText: UILabel!
+    @IBOutlet weak var monochromeText: UILabel!
+    
+    @IBOutlet weak var puffedSleevesImage: UIImageView!
+    @IBOutlet weak var bandanaImage: UIImageView!
+    @IBOutlet weak var monochromeImage: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        text1.isHidden = true
-        text2.isHidden = true
-        text3.isHidden = true
-
         // Do any additional setup after loading the view.
+        puffedSleevesText.isHidden = true
+        puffedSleevesImage.isHidden = false
+        
+        bandanaText.isHidden = true
+        bandanaImage.isHidden = false
+        
+        monochromeText.isHidden = true
+        monochromeImage.isHidden = false
     }
     
-    @IBAction func button1(_ sender: Any) {
-        text1.isHidden = false
+    @IBAction func puffedSleevesButton(_ sender: UIButton) {
+        if puffedSleevesText.isHidden {
+            puffedSleevesText.isHidden = false
+        } else {
+            puffedSleevesText.isHidden = true
+        }
     }
     
-    @IBAction func button2(_ sender: Any) {
-        text2.isHidden = false
+    
+    @IBAction func bandanaButton(_ sender: UIButton) {
+        if bandanaText.isHidden {
+            bandanaText.isHidden = false
+        } else {
+            bandanaText.isHidden = true
+        }
     }
     
-    @IBAction func button3(_ sender: Any) {
-        text3.isHidden = false
+    
+    @IBAction func monochromeButton(_ sender: UIButton) {
+        if monochromeText.isHidden {
+            monochromeText.isHidden = false
+        } else {
+            monochromeText.isHidden = true
+        }
     }
+    
+
+    @IBAction func homeButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func aboutButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func quizButton(_ sender: UIButton) {
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 

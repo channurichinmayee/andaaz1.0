@@ -231,82 +231,83 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTk-jR-RN1">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HTk-jR-RN1">
                                 <rect key="frame" x="215" y="573" width="149" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7607843876" green="0.70588237050000002" blue="0.58039218189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="ABOUT">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="15" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <connections>
                                     <segue destination="lYw-b0-qKM" kind="presentation" modalPresentationStyle="fullScreen" id="A0i-gP-0qH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFt-FL-qlu">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UFt-FL-qlu">
                                 <rect key="frame" x="50" y="573" width="149" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7607843876" green="0.70588237050000002" blue="0.58039218189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="HOME">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="15" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qON-4s-8mC">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qON-4s-8mC">
                                 <rect key="frame" x="215" y="650" width="149" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7607843876" green="0.70588237050000002" blue="0.58039218189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="QUIZ">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="15" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <connections>
                                     <segue destination="ww7-T8-Ng1" kind="presentation" modalPresentationStyle="fullScreen" id="b9f-J7-a1E"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIq-i7-GZB">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jIq-i7-GZB">
                                 <rect key="frame" x="50" y="650" width="149" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7607843876" green="0.70588237050000002" blue="0.58039218189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="FEED">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="15" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <connections>
                                     <segue destination="OZu-xP-WmV" kind="presentation" modalPresentationStyle="fullScreen" id="zho-3Q-q46"/>
                                 </connections>
@@ -465,12 +466,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqP-AJ-PWf">
-                                <rect key="frame" x="41" y="444" width="166" height="127"/>
+                                <rect key="frame" x="75" y="475" width="87" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="bandanas aressdh">
+                                    <fragment content="BANDANAS">
                                         <attributes>
-                                            <font key="NSFont" size="15" name="Optima-Regular"/>
+                                            <color key="NSColor" red="0.33998280647070711" green="0.31541055211551278" blue="0.25970956883776092" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="15" name="Futura-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -500,6 +502,10 @@
                                     <color key="titleColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <imageReference key="image" image="homepage icon 1.0" symbolScale="large"/>
                                 </state>
+                                <connections>
+                                    <action selector="homeButton:" destination="OZu-xP-WmV" eventType="touchUpInside" id="xzh-J1-6pr"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="pyS-H5-f8O"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uiP-Pe-xCt">
                                 <rect key="frame" x="126" y="805" width="58" height="57"/>
@@ -512,7 +518,8 @@
                                     <imageReference key="image" image="about pageeeee icon" symbolScale="large"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lYw-b0-qKM" kind="presentation" modalPresentationStyle="fullScreen" id="v0i-b1-piE"/>
+                                    <action selector="aboutButton:" destination="OZu-xP-WmV" eventType="touchUpInside" id="H9d-Bu-GIQ"/>
+                                    <segue destination="lYw-b0-qKM" kind="presentation" modalPresentationStyle="fullScreen" id="2XL-pS-phj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvL-Ec-E9n">
@@ -537,7 +544,8 @@
                                     <imageReference key="image" image="quiz 1.0 iconnnn" symbolScale="large"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ww7-T8-Ng1" kind="presentation" modalPresentationStyle="fullScreen" id="GZq-NG-5yp"/>
+                                    <action selector="quizButton:" destination="OZu-xP-WmV" eventType="touchUpInside" id="9uB-Ix-wTq"/>
+                                    <segue destination="ww7-T8-Ng1" kind="presentation" modalPresentationStyle="fullScreen" id="F4q-vs-4Tm"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="UXE-jT-0Ae">
@@ -545,13 +553,35 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DuE-ny-qp2">
-                                <rect key="frame" x="204" y="294" width="166" height="127"/>
+                                <rect key="frame" x="245" y="334" width="121" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="puffed sleeves aee">
+                                    <fragment content="PUFFED SLEEVES">
                                         <attributes>
-                                            <font key="NSFont" size="15" name="Optima-Regular"/>
+                                            <color key="NSColor" red="0.33998280647070711" green="0.31541055211551278" blue="0.25970956883776092" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="15" name="Futura-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8W-Y3-akr">
+                                <rect key="frame" x="43" y="304" width="157" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.87058818339999999" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Dating back to the Renaissance period, Puff Sleeves are statement pieces which surged in the 1980s and are back in style! Cuffed in the middle, puff sleeves add an extravagant yet elegant twist to your outfit. 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Optima-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -561,26 +591,14 @@
                                 <rect key="frame" x="204" y="444" width="196" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AF9-Tf-r3w">
-                                <rect key="frame" x="7" y="202" width="403" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Our take on how today's fashion trends can be more sustainable! To find out more about the trend, tap on the image!">
-                                        <attributes>
-                                            <font key="NSFont" size="15" name="Optima-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXm-8f-Nka">
-                                <rect key="frame" x="219" y="612" width="167" height="127"/>
+                                <rect key="frame" x="222" y="583" width="167" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="monochrome">
+                                    <fragment content="MONOCHROME">
                                         <attributes>
-                                            <font key="NSFont" size="15" name="Optima-Regular"/>
+                                            <color key="NSColor" red="0.33998280647070711" green="0.31541055211551278" blue="0.25970956883776092" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="15" name="Futura-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -588,49 +606,114 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWX-8J-3iw">
-                                <rect key="frame" x="41" y="304" width="143" height="142"/>
+                                <rect key="frame" x="59" y="304" width="111" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <action selector="button1:" destination="OZu-xP-WmV" eventType="touchUpInside" id="YzF-h2-Xhe"/>
+                                    <action selector="puffedSleevesButton:" destination="OZu-xP-WmV" eventType="touchUpInside" id="6JV-nK-WD8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0K-Ef-o3c">
-                                <rect key="frame" x="252" y="444" width="103" height="144"/>
+                                <rect key="frame" x="245" y="444" width="114" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <action selector="button1:" destination="OZu-xP-WmV" eventType="touchUpInside" id="SIW-AY-lA5"/>
-                                    <action selector="button2:" destination="OZu-xP-WmV" eventType="touchUpInside" id="kL7-Py-nPa"/>
+                                    <action selector="bandanaButton:" destination="OZu-xP-WmV" eventType="touchUpInside" id="0C1-cH-Icy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZQ-G9-mFu">
-                                <rect key="frame" x="50" y="596" width="117" height="172"/>
+                                <rect key="frame" x="59" y="589" width="118" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <action selector="button2:" destination="OZu-xP-WmV" eventType="touchUpInside" id="Zaw-f0-Px9"/>
-                                    <action selector="button3:" destination="OZu-xP-WmV" eventType="touchUpInside" id="Utz-Cd-7TT"/>
+                                    <action selector="monochromeButton:" destination="OZu-xP-WmV" eventType="touchUpInside" id="oER-U3-F9G"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monochrome" translatesAutoresizingMaskIntoConstraints="NO" id="ZnI-Gv-3bL">
-                                <rect key="frame" x="29" y="596" width="200" height="172"/>
+                                <rect key="frame" x="18" y="589" width="200" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2B-Fl-Q8u">
+                                <rect key="frame" x="208" y="444" width="181" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.87058818339999999" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Considered as one of the iconic statement pieces of the 90s, Bandanas were a part of various times in history. In fact, the word “Bandana” is thought of stemming from Hindi! Famous artists like Tupac and Christina Aguilera popularly styled them, and their diverse versatility allows them to come back in style time and time again! 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Optima-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqo-Io-qRt">
+                                <rect key="frame" x="17" y="589" width="203" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.87058818339999999" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">From high fashion to streetwear, monochrome is everywhere, and good for us isn’t leaving just yet! Bold, sharp, yet minimalist, monochrome in fashion is styling one color and one color only. The 60s’ fashion revolution induced monochrome, and every designer brand almost showcases monochrome outfits on their runways since then. Bring the runway home with monochrome by starting with neutrals and spread out to funky colors! 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Optima-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kwk final project illustrations 2" translatesAutoresizingMaskIntoConstraints="NO" id="JKf-4V-2fv">
+                                <rect key="frame" x="178" y="339" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kwk final project illustrations 3" translatesAutoresizingMaskIntoConstraints="NO" id="0of-wE-bRE">
+                                <rect key="frame" x="7" y="475" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2022-06-13 at 12.15.45 PM" translatesAutoresizingMaskIntoConstraints="NO" id="bcv-lP-MxK">
+                                <rect key="frame" x="185" y="653" width="240" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AF9-Tf-r3w">
+                                <rect key="frame" x="7" y="202" width="403" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Our take on today's fashion trends! To find out more about the trend, tap on the image!">
+                                        <attributes>
+                                            <font key="NSFont" size="15" name="Optima-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="B1p-L1-XHT"/>
                         <color key="backgroundColor" red="0.93725490570000003" green="0.87058818339999999" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="bandana" destination="ijj-FS-iyO" id="6RY-ap-saI"/>
-                        <outlet property="monochrome" destination="ZnI-Gv-3bL" id="rwy-Ao-bJA"/>
-                        <outlet property="puffed" destination="UXE-jT-0Ae" id="N1q-GQ-ecI"/>
-                        <outlet property="text1" destination="DuE-ny-qp2" id="BzW-Nb-t4l"/>
-                        <outlet property="text2" destination="AXm-8f-Nka" id="0Ms-z9-fRQ"/>
-                        <outlet property="text3" destination="AXm-8f-Nka" id="pUK-fw-Vzu"/>
+                        <outlet property="bandanaImage" destination="ijj-FS-iyO" id="fuf-TQ-pF7"/>
+                        <outlet property="bandanaText" destination="E2B-Fl-Q8u" id="o8L-hU-g0z"/>
+                        <outlet property="monochromeImage" destination="ZnI-Gv-3bL" id="8Xh-KW-QCD"/>
+                        <outlet property="monochromeText" destination="Rqo-Io-qRt" id="sq7-83-fcQ"/>
+                        <outlet property="puffedSleevesImage" destination="UXE-jT-0Ae" id="t2N-99-Q50"/>
+                        <outlet property="puffedSleevesText" destination="P8W-Y3-akr" id="8c7-pe-KjR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1o7-wR-6Lf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -710,24 +793,27 @@ Cg
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVk-3H-ujl">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KVk-3H-ujl">
                                 <rect key="frame" x="110" y="738" width="193" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76100947949999997" green="0.70600752600000005" blue="0.58132776139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" red="0.7607843876" green="0.70588237050000002" blue="0.58039218189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Tap to Begin! "/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <state key="normal" title="Tap to Begin! ">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Tap to Begin! ">
                                             <attributes>
                                                 <color key="NSColor" red="0.52549022440000004" green="0.48627454040000001" blue="0.39607840779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="25" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
+                                <connections>
+                                    <segue destination="nZa-3Z-ObX" kind="presentation" modalPresentationStyle="fullScreen" id="eGb-ft-dX6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HL1-nX-qET">
                                 <rect key="frame" x="29" y="805" width="58" height="57"/>
@@ -739,6 +825,9 @@ Cg
                                     <color key="titleColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <imageReference key="image" image="homepage icon 1.0" symbolScale="large"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="brV-H1-YqE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEe-v9-CrY">
                                 <rect key="frame" x="126" y="805" width="58" height="57"/>
@@ -750,6 +839,9 @@ Cg
                                     <color key="titleColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <imageReference key="image" image="about pageeeee icon" symbolScale="large"/>
                                 </state>
+                                <connections>
+                                    <segue destination="lYw-b0-qKM" kind="presentation" modalPresentationStyle="fullScreen" id="0t6-vP-72L"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muo-dA-cat">
                                 <rect key="frame" x="233" y="805" width="58" height="57"/>
@@ -761,6 +853,9 @@ Cg
                                     <color key="titleColor" red="0.6991292939" green="0.64302044660000002" blue="0.4569030992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <imageReference key="image" image="feed iconnnn" symbolScale="large"/>
                                 </state>
+                                <connections>
+                                    <segue destination="OZu-xP-WmV" kind="presentation" modalPresentationStyle="fullScreen" id="EwE-VH-Igf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAM-Lu-LXK">
                                 <rect key="frame" x="328" y="805" width="58" height="57"/>
@@ -906,6 +1001,32 @@ Cg
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2U-gl-Ezw">
+                                <rect key="frame" x="50" y="58" width="47" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.5647059083" blue="0.46274507050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="ww7-T8-Ng1" kind="presentation" modalPresentationStyle="fullScreen" id="LWV-ZS-wwu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YM1-xx-tA2">
+                                <rect key="frame" x="336" y="724" width="46" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8589073532" green="0.7932606874" blue="0.65586287809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="→">
+                                            <attributes>
+                                                <font key="NSFont" size="21" name="LucidaGrande"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="frz-gp-wIn"/>
                         <color key="backgroundColor" red="0.93725490570000003" green="0.87058818339999999" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -915,10 +1036,10 @@ Cg
             </objects>
             <point key="canvasLocation" x="1704.3478260869567" y="747.99107142857144"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz Question Two View Controller-->
         <scene sceneID="hdH-Mp-Dnv">
             <objects>
-                <viewController id="1x2-oY-TyJ" sceneMemberID="viewController">
+                <viewController id="1x2-oY-TyJ" customClass="quizQuestionTwoViewController" customModule="andaaz1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iHa-07-CwL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -953,6 +1074,7 @@ Cg
                                 </state>
                                 <connections>
                                     <action selector="optionA:" destination="nZa-3Z-ObX" eventType="touchUpInside" id="5CD-8m-pOP"/>
+                                    <action selector="optionA:" destination="1x2-oY-TyJ" eventType="touchUpInside" id="6ho-K6-dhi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qq0-yc-iRz">
@@ -971,6 +1093,7 @@ Cg
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="optionB:" destination="1x2-oY-TyJ" eventType="touchUpInside" id="203-eR-Z8C"/>
                                     <action selector="optionB:" destination="nZa-3Z-ObX" eventType="touchUpInside" id="Avl-Gn-V0G"/>
                                 </connections>
                             </button>
@@ -991,6 +1114,7 @@ Cg
                                 </state>
                                 <connections>
                                     <action selector="optionC:" destination="nZa-3Z-ObX" eventType="touchUpInside" id="gVa-VF-GOz"/>
+                                    <action selector="optionC:" destination="1x2-oY-TyJ" eventType="touchUpInside" id="qQw-zM-Vh3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZC6-hv-imA">
@@ -1009,8 +1133,35 @@ Cg
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="optionD:" destination="1x2-oY-TyJ" eventType="touchUpInside" id="K4c-d7-RIW"/>
                                     <action selector="optionD:" destination="nZa-3Z-ObX" eventType="touchUpInside" id="ahO-Co-RPG"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YA-0d-u4z">
+                                <rect key="frame" x="39" y="57" width="47" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.5647059083" blue="0.46274507050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="nZa-3Z-ObX" kind="presentation" modalPresentationStyle="fullScreen" id="SH9-EH-0UB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAb-bx-k2C">
+                                <rect key="frame" x="348" y="718" width="46" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8589073532" green="0.7932606874" blue="0.65586287809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="→">
+                                            <attributes>
+                                                <font key="NSFont" size="21" name="LucidaGrande"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pKK-6o-UN2"/>
@@ -1021,10 +1172,10 @@ Cg
             </objects>
             <point key="canvasLocation" x="2341" y="748"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz Question Three View Controller-->
         <scene sceneID="JQP-6h-JBi">
             <objects>
-                <viewController id="XGE-x6-onD" sceneMemberID="viewController">
+                <viewController id="XGE-x6-onD" customClass="quizQuestionThreeViewController" customModule="andaaz1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DhI-rG-X1Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1079,6 +1230,32 @@ Cg
                                 <connections>
                                     <action selector="optionB:" destination="nZa-3Z-ObX" eventType="touchUpInside" id="4Wb-gG-m33"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E92-Lk-wZB">
+                                <rect key="frame" x="50" y="57" width="47" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.5647059083" blue="0.46274507050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="1x2-oY-TyJ" kind="presentation" modalPresentationStyle="fullScreen" id="7Hb-X4-8Um"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRL-2b-UsO">
+                                <rect key="frame" x="348" y="718" width="46" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8589073532" green="0.7932606874" blue="0.65586287809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="→">
+                                            <attributes>
+                                                <font key="NSFont" size="21" name="LucidaGrande"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ez0-HA-rDo"/>
@@ -1417,10 +1594,10 @@ Cg
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swS-ww-c06">
-                                <rect key="frame" x="21" y="55" width="374" height="118"/>
+                                <rect key="frame" x="21" y="55" width="373" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="which statistic of the following is INCORRECT?">
+                                    <fragment content="Which statistic of the following is INCORRECT?">
                                         <attributes>
                                             <font key="NSFont" size="27" name="Optima-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -1603,10 +1780,10 @@ Cg
             </objects>
             <point key="canvasLocation" x="1708.6956521739132" y="1459.8214285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz Question Four View Controller-->
         <scene sceneID="Bdx-dh-MuE">
             <objects>
-                <viewController id="i3V-tK-7kX" sceneMemberID="viewController">
+                <viewController id="i3V-tK-7kX" customClass="quizQuestionFourViewController" customModule="andaaz1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tJk-Af-hFB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1700,6 +1877,32 @@ Cg
                                     <action selector="optionD:" destination="nZa-3Z-ObX" eventType="touchUpInside" id="AYK-9q-37h"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhh-h6-WbM">
+                                <rect key="frame" x="50" y="55" width="47" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.5647059083" blue="0.46274507050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="XGE-x6-onD" kind="presentation" modalPresentationStyle="fullScreen" id="mFZ-Fl-DUj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CsX-XV-9pt">
+                                <rect key="frame" x="348" y="714" width="46" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8589073532" green="0.7932606874" blue="0.65586287809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="→">
+                                            <attributes>
+                                                <font key="NSFont" size="21" name="LucidaGrande"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sUL-Cp-YP3"/>
                         <color key="backgroundColor" red="0.93725490570000003" green="0.87058818339999999" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1732,12 +1935,15 @@ Cg
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="GZq-NG-5yp"/>
-        <segue reference="6ec-FP-coy"/>
-        <segue reference="v0i-b1-piE"/>
+        <segue reference="eGb-ft-dX6"/>
+        <segue reference="F4q-vs-4Tm"/>
+        <segue reference="zho-3Q-q46"/>
+        <segue reference="2XL-pS-phj"/>
+        <segue reference="pyS-H5-f8O"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="513" height="655"/>
+        <image name="Screenshot 2022-06-13 at 12.15.45 PM" width="398" height="834"/>
         <image name="about pageeeee icon" width="512" height="512"/>
         <image name="arrowshape.turn.up.left" catalog="system" width="128" height="106"/>
         <image name="bandana" width="736" height="908"/>
@@ -1745,6 +1951,8 @@ Cg
         <image name="colour palette andaaz" width="806" height="358"/>
         <image name="feed iconnnn" width="512" height="512"/>
         <image name="homepage icon 1.0" width="512" height="512"/>
+        <image name="kwk final project illustrations 2" width="475" height="455"/>
+        <image name="kwk final project illustrations 3" width="406" height="320"/>
         <image name="monochrome" width="640" height="926"/>
         <image name="quiz 1.0 iconnnn" width="512" height="512"/>
         <systemColor name="labelColor">
