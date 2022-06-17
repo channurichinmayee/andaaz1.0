@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A55139C285C973A00AD2216 /* quizQuestionTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A55139B285C973A00AD2216 /* quizQuestionTwoViewController.swift */; };
 		6A55139E285C97AC00AD2216 /* quizQuestionThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A55139D285C97AC00AD2216 /* quizQuestionThreeViewController.swift */; };
 		6A5513A0285C992F00AD2216 /* quizQuestionFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A55139F285C992F00AD2216 /* quizQuestionFourViewController.swift */; };
 		6ACDBED2285BB33900433A4E /* quizQuestionOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDBED1285BB33900433A4E /* quizQuestionOneViewController.swift */; };
@@ -24,6 +23,14 @@
 		C3C6B02A285A11320010ADCC /* latesttrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6B029285A11320010ADCC /* latesttrendsViewController.swift */; };
 		C3C6B02C285A11440010ADCC /* quizoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6B02B285A11440010ADCC /* quizoneViewController.swift */; };
 		FB4B57A3285B731D0045510A /* scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B57A2285B731D0045510A /* scroll.swift */; };
+		FB87574B285CCAA300FD4994 /* recycleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB87574A285CCAA300FD4994 /* recycleController.swift */; };
+		FB87574D285CCAE900FD4994 /* regiftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB87574C285CCAE900FD4994 /* regiftController.swift */; };
+		FB87574F285CCB2500FD4994 /* donateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB87574E285CCB2500FD4994 /* donateController.swift */; };
+		FB875751285CCD4A00FD4994 /* torn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB875750285CCD4A00FD4994 /* torn2.swift */; };
+		FB875753285CCE4300FD4994 /* torn3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB875752285CCE4300FD4994 /* torn3.swift */; };
+		FB875755285CCEBF00FD4994 /* torn4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB875754285CCEBF00FD4994 /* torn4.swift */; };
+		FB875757285CDF4900FD4994 /* facts1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB875756285CDF4900FD4994 /* facts1.swift */; };
+		FB875759285CDF5D00FD4994 /* facts2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB875758285CDF5D00FD4994 /* facts2.swift */; };
 		FBF88BF8285B850C00EB3785 /* QUIZ1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF88BF7285B850C00EB3785 /* QUIZ1.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +52,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6A55139B285C973A00AD2216 /* quizQuestionTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizQuestionTwoViewController.swift; sourceTree = "<group>"; };
 		6A55139D285C97AC00AD2216 /* quizQuestionThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizQuestionThreeViewController.swift; sourceTree = "<group>"; };
 		6A55139F285C992F00AD2216 /* quizQuestionFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizQuestionFourViewController.swift; sourceTree = "<group>"; };
 		6ACDBED1285BB33900433A4E /* quizQuestionOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizQuestionOneViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,14 @@
 		C3C6B029285A11320010ADCC /* latesttrendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latesttrendsViewController.swift; sourceTree = "<group>"; };
 		C3C6B02B285A11440010ADCC /* quizoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizoneViewController.swift; sourceTree = "<group>"; };
 		FB4B57A2285B731D0045510A /* scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scroll.swift; sourceTree = "<group>"; };
+		FB87574A285CCAA300FD4994 /* recycleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recycleController.swift; sourceTree = "<group>"; };
+		FB87574C285CCAE900FD4994 /* regiftController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regiftController.swift; sourceTree = "<group>"; };
+		FB87574E285CCB2500FD4994 /* donateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donateController.swift; sourceTree = "<group>"; };
+		FB875750285CCD4A00FD4994 /* torn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = torn2.swift; sourceTree = "<group>"; };
+		FB875752285CCE4300FD4994 /* torn3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = torn3.swift; sourceTree = "<group>"; };
+		FB875754285CCEBF00FD4994 /* torn4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = torn4.swift; sourceTree = "<group>"; };
+		FB875756285CDF4900FD4994 /* facts1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facts1.swift; sourceTree = "<group>"; };
+		FB875758285CDF5D00FD4994 /* facts2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facts2.swift; sourceTree = "<group>"; };
 		FBF88BF7285B850C00EB3785 /* QUIZ1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUIZ1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,9 +144,16 @@
 				FB4B57A2285B731D0045510A /* scroll.swift */,
 				FBF88BF7285B850C00EB3785 /* QUIZ1.swift */,
 				6ACDBED1285BB33900433A4E /* quizQuestionOneViewController.swift */,
-				6A55139B285C973A00AD2216 /* quizQuestionTwoViewController.swift */,
 				6A55139D285C97AC00AD2216 /* quizQuestionThreeViewController.swift */,
 				6A55139F285C992F00AD2216 /* quizQuestionFourViewController.swift */,
+				FB87574A285CCAA300FD4994 /* recycleController.swift */,
+				FB87574C285CCAE900FD4994 /* regiftController.swift */,
+				FB87574E285CCB2500FD4994 /* donateController.swift */,
+				FB875750285CCD4A00FD4994 /* torn2.swift */,
+				FB875752285CCE4300FD4994 /* torn3.swift */,
+				FB875754285CCEBF00FD4994 /* torn4.swift */,
+				FB875756285CDF4900FD4994 /* facts1.swift */,
+				FB875758285CDF5D00FD4994 /* facts2.swift */,
 			);
 			path = andaaz1.0;
 			sourceTree = "<group>";
@@ -287,15 +308,22 @@
 			files = (
 				FBF88BF8285B850C00EB3785 /* QUIZ1.swift in Sources */,
 				C3C6B028285A10F30010ADCC /* secondViewController.swift in Sources */,
+				FB875759285CDF5D00FD4994 /* facts2.swift in Sources */,
 				6AD8146228570C2B005735C0 /* ViewController.swift in Sources */,
 				6A5513A0285C992F00AD2216 /* quizQuestionFourViewController.swift in Sources */,
+				FB87574D285CCAE900FD4994 /* regiftController.swift in Sources */,
+				FB875757285CDF4900FD4994 /* facts1.swift in Sources */,
 				C3C6B02C285A11440010ADCC /* quizoneViewController.swift in Sources */,
 				6AD8145E28570C2B005735C0 /* AppDelegate.swift in Sources */,
 				6ACDBED2285BB33900433A4E /* quizQuestionOneViewController.swift in Sources */,
 				6A55139E285C97AC00AD2216 /* quizQuestionThreeViewController.swift in Sources */,
+				FB87574B285CCAA300FD4994 /* recycleController.swift in Sources */,
 				C3C6B02A285A11320010ADCC /* latesttrendsViewController.swift in Sources */,
 				FB4B57A3285B731D0045510A /* scroll.swift in Sources */,
-				6A55139C285C973A00AD2216 /* quizQuestionTwoViewController.swift in Sources */,
+				FB875753285CCE4300FD4994 /* torn3.swift in Sources */,
+				FB875751285CCD4A00FD4994 /* torn2.swift in Sources */,
+				FB875755285CCEBF00FD4994 /* torn4.swift in Sources */,
+				FB87574F285CCB2500FD4994 /* donateController.swift in Sources */,
 				6AD8146028570C2B005735C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

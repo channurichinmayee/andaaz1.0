@@ -1,13 +1,13 @@
 //
-//  quizQuestionTwoViewController.swift
+//  regiftController.swift
 //  andaaz1.0
 //
-//  Created by Abhijay Channuri Rao on 17/06/22.
+//  Created by sns on 17/06/22.
 //
 
 import UIKit
 
-class quizQuestionTwoViewController: UIViewController {
+class regiftController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,19 +15,7 @@ class quizQuestionTwoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func optionA(_ sender: Any) {
-    }
-    
-    @IBAction func optionB(_ sender: Any) {
-    }
-    
-    
-    @IBAction func optionC(_ sender: Any) {
-    }
-    
-    @IBAction func optionD(_ sender: Any) {
-    }
-    
+
     /*
     // MARK: - Navigation
 
